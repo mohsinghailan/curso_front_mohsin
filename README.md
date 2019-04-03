@@ -1,19 +1,33 @@
-# curso_front_mohsin
-Repositorio ejercicios del curso Front en CIFE en Fuenlabrada realizado (Abril/Julio 2019).
+# Curso Front CIFE
 
-1. Visual Studio Code (desde la web)
+Ejercicios del curso Front en CIFE-Fuenlabrada (Abril/Julio 2019)
+
+## Entorno
+
+1. Visual Studio Code (desde web)
 2. Git (desde web)
-3. Node JS (desde web)
-4. http.server (desde terminal)
-   
-```p
+3. NodeJS (desde web)
+4. Http-server: desde terminal 
+```shell
 npm install -g http-server
 ```
 
-Configurar Git
-
-```p
-git config --global user.name
-git config --global user.email
-git config --global -l
+## Configurar Git
+```shell
+git config --global user.name <username>
+git config --global user.email <useremail>
+git congig --global -l
 ```
+
+## Crear repositorio / clonar repositorio
+
+1. Crear repositorio nuevo
+```shell
+git init [<nombre>]
+```
+
+2. Clonar un repositorio existente
+```shell
+git clone <enlace al repositorio en github>
+```
+Siempre crea una nueva carpeta en el punto en que se ejecuta
