@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
 
-<!-- los 4 metadatos más importantes que se usan. Los metadatos van dirigidos a las máquinas o programillas que estan en la web -->
+    <!-- los 4 metadatos más importantes que se usan. Los metadatos van dirigidos a las máquinas o programillas que estan en la web -->
     <meta name="author" content="Mohsin Ghaillane">
     <meta name="description" content="Ejercicios del curso de Fronte End del CIFE. En este caso sobre los metadatos.">
     <meta name="keywords" content="web, HTML, developer, desarollo web">
@@ -16,64 +17,295 @@
 
     <link rel="stylesheet" href="./CSS/style.css">
 
-<!-- En Java script -->
+    <!-- En Java script -->
     <script>
         console.log("Hola Mundo")
-    
+
     </script>
 
-<!-- Para enlazar archivos JS (hay que estar fuera del script) -->
+    <!-- Para enlazar archivos JS (hay que estar fuera del script) -->
     <script src="./JS/app.js"></script>
 
-    <title>Document</title>
+    <title>CURSO FRONT</title>
 
 </head>
+
 <body>
     <header>
-        <h1>Elementos de HTML</h1>
+        <h1>Elementos de HTML 😀</h1>
 
         <!-- Para meter el bloque de menus serian con nav. Deben estar dentro de un Header -->
         <nav>
-        Documentos - Metadatos - Bloques
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#Bloques">Bloques</li>
+                <li><a href="#en_linea">En linea</li>
+                <li><a href="./mmedia.html">Multimedia</a></li>
+            </ul>
         </nav>
 
     </header>
-    
-    
 
-    <section>
-       <header>
-           <h2>El documento</h2>
-        <p>HTML</p>
-       </header>
-        
-    </section>
-    
+    <div class="content-wrapper">
 
-    <section>
-        <H2>Metadatos</H2>
-        <p>Head, Meta, title, link, style y script</p>
-    </section>
+        <section>
+            <header>
+                <h2>El documento</h2>
+                <p>HTML</p>
+            </header>
 
-    <h2>Elementos en bloque</h2>
-   
-   <!-- Los bloques que quieres que se reflejen en el indice son de section -->
-    <h3>Section</h3>
-    <p>Antes de HTML5 : body, los encabezados (h1...h6) daban lugar al seccionado implicito</p>
-    <p>En HTML5 aparecen los elementos semánticos de seccionado explícito:
-        section, header, footer, nav, article y aside
-    </p>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptatem beatae neque ab molestiae similique laborum inventore, molestias mollitia nulla odit adipisci, quibusdam, quod aliquam obcaecati consequuntur. Obcaecati, facere iusto.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptatem beatae neque ab molestiae similique laborum inventore, molestias mollitia nulla odit adipisci, quibusdam, quod aliquam obcaecati consequuntur. Obcaecati, facere iusto.</p>
 
-    <!-- Los bloques que quieren en los grupos  -->
-    <h3>Grouping</h3>
+        </section>
 
-    <footer>
-        <p>Mohsin Ghaillane</p>
 
-    </footer>
+        <section>
+            <H2>Metadatos</H2>
+            <p>Head, Meta, title, link, style y script</p>
+        </section>
+
+        <h2>Elementos en bloque</h2>
+
+        <!-- Los bloques que quieres que se reflejen en el indice son de section -->
+        <h3>Elementos de seccionado (Sectioning)</h3>
+        <p>Antes de HTML5 : body, los encabezados (h1...h6) daban lugar al seccionado implicito</p>
+        <p>En HTML5 aparecen los elementos semánticos de seccionado explícito:
+            section, header, footer, nav, article y aside
+        </p>
+        <h4>Header</h4>
+        <blockquote cite="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/header" title="developer.mozilla.org">
+            El
+            elemento de HTML Header (&lt;header&gt;) &copy; representa un grupo de ayudas introductorias o de navegación
+            .
+            Puede contener algunos elementos de encabezado, pero también otros elementos como un logo, una sección que
+            aglutine secciones de encabezados, una formulario de búsqueda o cosas parecidas.
+
+            <footer>
+                <cite>developer.mozilla.org</cite>
+            </footer>
+
+        </blockquote>
+
+        <h4>Footer</h4>
+        <blockquote cite="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/header"
+            footer="developer.mozilla.org"> El
+            Elemento HTML Footer (&lt;footer&gt;) representa un pie de página para el contenido de sección más cercano o
+            el
+            elemento raíz de sección (p.e, su ancestro mas cercano article, aside, nav, section, blockquote, body,
+            details,
+            fieldset, figure, td). Un pie de página típicamente contiene información acerca de el autor de la sección,
+            datos
+            de derechos de autor o enlaces a documentos relacionados.
+            <footer>
+                <cite>developer.mozilla.org</cite>
+            </footer>
+
+        </blockquote>
+
+
+        <h4>Section</h4>
+        <blockquote cite="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/section">
+
+            <p class="h1">Section</h1>
+                <p>El elemento de HTML section (&lt;section&gt;) representa una sección genérica de un documento. Sirve
+                    para
+                    determinar qué contenido corresponde a qué parte de un esquema. Piensa en el esquema como en el
+                    índice
+                    de contenido de un libro; un tema común y subsecciones relacionadas.</p>
+                <p>Es, por lo tanto, una etiquéta semántica. Su funcionalidad principal es estructurar semánticamente un
+                    documento a la hora de ser representado por parte de un agente usuario. Por ejemplo, un agente de
+                    usuario que represente el documento en voz, podría exponer al usuario el índice de contenido por
+                    niveles
+                    para navegar rápidamente por las distintas partes.</p>
+
+                <footer>
+                    <cite>developer.mozilla.org</cite>
+                </footer>
+
+        </blockquote>
+
+
+
+        <h4>Nav</h4>
+        <p>La MDN indica que <q cite="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/nav">esta etiqueta crea un
+                menú de navegación</q> (https://developer.mozilla.org).</p> (<cite>developer.mozilla.org</cite>)
+
+        <H4>Article</H4>
+        <blockquote cite="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/article">El Elemento
+            <strong>article</strong> de HTML (&lt;article&gt;) representa una composición auto-contenida en un
+            documento,
+            página, una aplicación o en el sitio, que se destina a distribuir de forma <em>independiente o
+                reutilizable</em>
+            , por ejemplo, en la sindicación. Podría ser un mensaje en un foro, un artículo de una revista o un
+            periódico,
+            una entrada de blog, un comentario de un usuario, un widget interactivo o gadget, o cualquier otro elemento
+            independiente del contenido
+
+            <footer>
+                <cite>developer.mozilla.org</cite>
+            </footer>
+
+        </blockquote>
+
+
+
+        <h4>Aside</h4>
+
+        <blockquote cite="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/aside">El Elemento HTML
+            <strong>Aside</strong> (&lt;aside&gt;) representa una sección de una página que consiste en contenido que
+            está
+            <strong>tangencialmente relacionado</strong> con el contenido que le rodea, que podría ser considerado
+            independiente de ese contenido. Estas secciones son a menudo representadas como barras laterales o como
+            inserciones y contienen una explicación al margen como una definición de glosario, elementos relacionados
+            indirectamente, como publicidad, la biografía del autor, o en aplicaciones web, la información de perfil o
+            enlaces a blogs relacionados.
+            <footer>
+                <cite>developer.mozilla.org</cite>
+            </footer>
+
+        </blockquote>
+
+
+
+        <!-- Los grupos no se reflejan en la estructura. Son elementos de bloque  -->
+        <h3>Grouping</h3>
+
+        <h4>Parrafos:</h4>
+        <p>p, pre, blockquote (cit literal de texto)</p>
+        <p>La etiqueta pre representa párrafos preformateados</p>
+        <pre>
+        Esto tiene
+        un formato
+    </pre>
+
+        <h4>Listas</h4>
+        <p>
+            - desordenadas : ul
+            - ordenadas : ol
+            - de definiciones: dl
+        </p>
+
+        <p>Ejemplo de lista ordenada</p>
+        <ol>
+            <li>Lunes</li>
+            <li>Martes</li>
+            <li>Miercoles</li>
+            <li>Jueves</li>
+            <li>Viernes</li>
+            <li>Sabado</li>
+            <li>Domingo</li>
+        </ol>
+        <!-- ul + il* num de repeticiones + intro -->
+        <ul>
+            <li>Head</li>
+            <li>meta</li>
+            <li>title</li>
+            <li>link</li>
+            <li>style</li>
+            <li>script</li>
+        </ul>
+
+        <!-- Listas de Definiciones Continen parejas de dos tipos de items. Definiciones y términos -->
+        <!-- <dt></dt><dd></dd> ejemplo: etiquetas y su significado -->
+        <dl>
+            <dt>ul</dt>
+            <dd>desordenadas</dd>
+            <dt>xx</dt>
+            <ddxxxxxxx>
+                </dd>
+
+        </dl>
+
+
+
+        <h4>Bloques neutros en HTML4</h4>
+        <UL>
+            <li>address</li> <!-- tipo de parrafo especial para datos de autoria, datos de una página etc -->
+            <li>main</li>
+
+        </UL>
+
+        <section>
+            <header>
+                <h2>Elementos en linea</h2>
+            </header>
+            <section>
+                <h3>Hiperenlaces</h3>
+                <p>Corresponde a la etiqueta a con el atributo href para indicar la url</p>
+                <p>Hay varios tipos de url</p>
+                <ul>
+                    <li>absolutas</li>
+                    <li>relativas al origen</li>
+                    <li>relativas al documento</li>
+                    <li>internas</li>
+                </ul>
+                <p>Ejemplo de url absoluta si accedemos al <a href="https://www.w3.org/TR/html52/"target="_blank" rel="external ">estandar en el w3c</a></p>
+            </section>
+
+            <section>
+                <h3>Text level</h3>
+                <h4>Elementos en linea neutros</h4>
+                <ul>
+                    <li>span</li>
+                </ul>
+                <p>Ejemplo del uso en <span class="verde"> una palabra</span></p> 
+
+                <h4>Elementos claramente semánticos</h4> 
+                <ul>
+                    <li>strong</li>
+                    <li>em (emphasis)</li>
+                    <li>sup</li>
+                    <li>sub</li>
+                </ul>
+
+                <h4>Elementos con valor semantico nuevo</h4> 
+                <ul>
+                    <li>b (bold)</li>
+                    <li> (italics)</li>
+                    <li>i</li>
+                    <li>u (underline)</li>
+                    <li>s (strike)</li>
+                </ul>
+
+                <h4>Elementos de tipo técnico</h4> 
+                <ul>
+                    <li>samp (sample)</li>
+                    <li>code (code)</li>
+                    <li>kbd (keyboard)</li>
+                    <li>var (variebles)</li>
+                    <li>dfn (definition)</li>
+                    <li>abbr (abbr)</li>
+                </ul>
+
+
+                <h4>Uso de referencias y citas</h4> 
+                <ul>
+                        <li>q (quote)</li>
+                        <li>cite (cite o referencia)</li>
+                </ul>
+
+                <h4>Otras etiquetas semanticas de HTML5</h4> 
+                <ul>
+                        <li>time, e.g. <time datetime="2019-12-6">día de la constitución de este año</time></li>
+                        <li>mark marcado <mark>interactivo</mark></li>
+
+                </ul>
+
+
+
+            </section>
+
+
+        </section>
+
+
+        <footer>
+            <p>Mohsin Ghaillane - &copy;</p>
+
+        </footer>
+
+    </div>
 
 </body>
+
 </html>
