@@ -38,8 +38,8 @@
         <nav>
             <ul>
                 <li><a href="#">Inicio</a></li>
-                <li><a href="#Bloques">Bloques</li>
-                <li><a href="#en_linea">En linea</li>
+                <li><a href="#Bloques">Bloques</a></li>
+                <li><a href="#en_linea">En linea</a></li>
                 <li><a href="./mmedia.html">Multimedia</a></li>
             </ul>
         </nav>
@@ -48,23 +48,25 @@
 
     <div class="content-wrapper">
 
-        <section>
+        <section id="doc_html">
             <header>
                 <h2>El documento</h2>
                 <p>HTML</p>
             </header>
 
-
-
         </section>
 
-
-        <section>
+        <section id="metadatos">
             <H2>Metadatos</H2>
             <p>Head, Meta, title, link, style y script</p>
         </section>
-
-        <h2>Elementos en bloque</h2>
+        
+        <section id="bloques">
+            <header>
+                <h2>Elementos en bloque</h2>
+            </header>
+            
+        </section>
 
         <!-- Los bloques que quieres que se reflejen en el indice son de section -->
         <h3>Elementos de seccionado (Sectioning)</h3>
@@ -85,6 +87,7 @@
             </footer>
 
         </blockquote>
+    </section>
 
         <h4>Footer</h4>
         <blockquote cite="https://developer.mozilla.org/es/docs/Web/HTML/Elemento/header"
@@ -229,7 +232,7 @@
             <header>
                 <h2>Elementos en linea</h2>
             </header>
-            <section>
+            <section id="hiperenlaces">
                 <h3>Hiperenlaces</h3>
                 <p>Corresponde a la etiqueta a con el atributo href para indicar la url</p>
                 <p>Hay varios tipos de url</p>
@@ -242,7 +245,7 @@
                 <p>Ejemplo de url absoluta si accedemos al <a href="https://www.w3.org/TR/html52/"target="_blank" rel="external ">estandar en el w3c</a></p>
             </section>
 
-            <section>
+            <section id="text level">
                 <h3>Text level</h3>
                 <h4>Elementos en linea neutros</h4>
                 <ul>
@@ -299,12 +302,18 @@
         </section>
 
 
-        <footer>
-            <p>Mohsin Ghaillane - &copy;</p>
+        <aside id="publici">
+            <p>Publicidad</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis in error accusantium illum sit libero inventore autem quaerat totam est praesentium porro mollitia pariatur numquam quae cumque, alias molestiae quisquam?</p>
 
-        </footer>
+        </aside>
 
     </div>
+
+        <footer>
+            <address>Mohsin Ghaillane - &copy;</address>
+
+        </footer>
 
 </body>
 

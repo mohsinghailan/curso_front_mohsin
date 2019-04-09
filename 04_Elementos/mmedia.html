@@ -38,20 +38,89 @@
         <nav>
             <ul>
                 <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./index.html#Bloques">Bloques</li>
+                <li><a href="./index.html#bloques">Bloques</li>
                 <li><a href="./index.html#En_linea">En linea</li>
                 <li><a href="#">Multimedia</a></li>
             </ul>
         </nav>
 
     </header>
-    <section>
+
+    <div class="content-wrapper">
+        <section id="media">
         <header>
-            <h2>MULTIMEDIA</h2>
+            <h2>Elementos embebidos y multimedia</h2>
         </header>
-    </section>
+        <p>Veremos como utilizar:</p>
+        <ul>
+            <li>Imágenes
+                <ul>
+                    <li>jpg</li>
+                    <li>gif</li>
+                    <li>png</li>
+                    <li>webp</li>
+                    <li>svg</li>
+                </ul>
+            </li>
+                
+
+            <li>Video y Audio
+                <ul>
+                    <li>mp4</li>
+                    <li>ogg</li>
+                    <li>webm</li>
+
+                </ul>
+              
+            </li>
+                
+            <li>Elementos de navegación gráficos</li>
+
+        </ul>
+        <h3>Imágenes</h3>
+        <img src="./assets/maldivas.jpg" alt="Paisaje de las Maldivas">
+        <img src="/04_Elementos/assets/viajes-3.png" alt="viajes">
+        <figure>
+            <img src="./assets/tropical-sunrise.webp" alt="Amanecer tropical">
+            <figcaption>Amanecer tropical</figcaption>
+        </figure>
+            <img src="./assets/logo.svg" alt="Logotipo">
+
+        <h3>Video y Audio</h3>
+        <p>Los vídeos pueden proceder de una fuente externa como Youtube</p>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/sDKnKzYyx5c" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <p>Los videos también pueden proceder de una fuente interna, como por ejemplo desde un servidor</p>
+
+        <!-- Para que no haya problemas de formatos con las versiones y tipos de nagevadores, habrá que meter los videos como se indica en la parte inferior. Habrá que meter los dos formatos, tanto webm y mp4 -->
+        <video controls>
+        
+            <source src="./assets/Ghost_in_the_Shell_Opening.webm" type="video/webm">
+                <source src="./assets/Ghost_in_the_Shell_Opening.mp4" type="video/mp4">
+        </video>
+
+        <p>También se pueden incluir audios</p>
+            <audio src="./assets/Haydn_Cello_Concerto_D-1.mp3" controls></audio>
+
+        <h3>Elementos de navegación gráficos</h3>
+        <p>Los SVG se pueden tratar como documentos en vez de imágenes</p>
+            <embed src="./assets/logo.svg" type="image/svg+xml">
+
+
+        </section>
+    
+
+        <aside id="publici">
+            <p>Publicidad</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis in error accusantium illum sit libero inventore autem quaerat totam est praesentium porro mollitia pariatur numquam quae cumque, alias molestiae quisquam?</p>
+
+        </aside>
+
+    </div>
+   
     <footer>
-            <p>Mohsin Ghaillane - &copy;</p>
+            <address>Mohsin Ghaillane - &copy;</address>
 
         </footer>
 </body>
