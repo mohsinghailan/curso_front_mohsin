@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- los 4 metadatos más importantes que se usan. Los metadatos van dirigidos a las máquinas o programillas que estan en la web -->
+    <meta name="author" content="Mohsin Ghaillane">
+    <meta name="description" content="Ejercicios del curso de Fronte End del CIFE. En este caso sobre los metadatos.">
+    <meta name="keywords" content="web, HTML, developer, desarollo web">
+    <meta name="generator" content="Visual Studio Code">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- <style></style> -->
+
+    <link rel="stylesheet" href="./CSS/style.css">
+
+    <!-- En Java script -->
+    <script>
+        console.log("Hola Mundo")
+
+    </script>
+
+    <!-- Para enlazar archivos JS (hay que estar fuera del script) -->
+    <script src="./JS/app.js"></script>
+
+    <title>FORMULARIO_CURSO</title>
+
+</head>
+
+<body>
+    <header>
+        <h1>Elementos de HTML 😀</h1>
+
+        <!-- Para meter el bloque de menus serian con nav. Deben estar dentro de un Header -->
+        <nav>
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./index.html#bloques">Bloques</li>
+                <li><a href="./index.html#En_linea">En linea</li>
+                <li><a href="./mmedia.html">Multimedia</a></li>
+                <li><a href="#">Formulario</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div class="content-wrapper">
+       <main>
+            <section id="form">
+                <header>
+                    <h2>Formulario</h2>
+                </header>
+                <p>Están disponibles los siguientes controles</p>
+                <ul>
+                    <li>imput - text</li>
+                    <li>text area</li>
+                    <li>chekbox</li>
+                    <li>radio butons</li>
+                    <li>select / options</li>
+                    <li>botones</li>
+                </ul>
+                <h3>Ejemplo de formulario</h3>
+                <form action="https://jsonplaceholder.typicode.com/users" method="post">
+                    <input type="text" name="nombre" id="nombre" placeholder="nombre">
+                    <button type="submit">Enviar</button>
+                </form>
+
+            </section>
+
+
+       </main>
+       
+       <aside id="publici">
+            <p>Publicidad</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis in error accusantium illum sit libero inventore autem quaerat totam est praesentium porro mollitia pariatur numquam quae cumque, alias molestiae quisquam?</p>
+
+        </aside>
+
+    </div>
+   
+    <footer>
+            <address>Mohsin Ghaillane - &copy;</address>
+
+        </footer>
+</body>
+</html>
