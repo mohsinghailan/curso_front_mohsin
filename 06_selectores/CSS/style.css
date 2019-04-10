@@ -1,0 +1,23 @@
+
+/* Estamos usando un SELECTOR DE DESCENDIENTES : operador es el espacio. Es el que más se usa. Nos va a permitir crear espacios de nombres*/
+section p {
+    color: blue;
+}
+
+/* Selector de hijo : operador > */
+
+section>p {
+    color: brown;
+}
+
+/* Selector de hermanos : operador ~ (Virgulilla se saca con alt Gr 4 + espacio) */
+
+div~p {
+    color: darkblue;
+}
+
+/* Selector de hermanos adyacentes : operador + */
+
+div+p {
+    color: darkgoldenrod;
+}
