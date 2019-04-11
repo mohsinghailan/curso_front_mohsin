@@ -1,0 +1,63 @@
+
+
+section>p::first-letter {
+    font-size: 4rem;
+}
+
+aside p::first-line {
+    font-size: 1,1rem;
+    font-weight: bold;
+}
+
+section div p::before {
+    content: "⚠️"
+}
+
+p:hover {
+    color: brown;
+}
+
+/* la , hace que a y a:visited tengan el mismo color */
+a, a:visited {
+    color: blue;
+}
+
+/* nth-child quiere decir el orden de hijo. Todos los parrafos primeros de la sección. En este caso será el primer párrafo de la sección, pero es a su vez el tercer hijo de la sección */
+section p:nth-child(1) {
+    color: blue
+}
+
+/* esl el primer de lo que le estes indicando, sin contar el orden de hijos diferentes */
+
+/* Even es par y odd es impar */
+section p:nth-of-type(even) {
+    color: blue;
+}
+
+/* El * vale para que te aplique a todo una características que le digas */
+/* * {
+    display: inline;
+} */
+
+
+/* Ejemplo de herencia:
+- La fuente si se hereda.
+- El borde no se hereda */
+
+body {
+    font-family: 'EB Garamond', serif;
+    border: 1px solid;
+}
+
+
+/* * {
+    font-family: 'EB Garamond', serif;
+    border: 1px solid;
+} */
+
+header {
+    font-family: 'Alfa Slab One', cursive;
+}
+
+
+
