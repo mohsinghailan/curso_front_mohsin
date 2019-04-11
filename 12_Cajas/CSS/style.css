@@ -1,0 +1,39 @@
+/* Box-sizing: border-box sirve para decidir si la referencia witdh se refiere a todo lo que esta del borde para a dentro. Se meterá en todos los CSS */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.cuadrados p {
+    width: 15%;
+    float: left;
+    margin: calc(calc(100% - calc(15%*5)) / 10);
+    padding: 1rem;
+    background-color: coral;
+    border: 1px solid;
+    /* display: inline; */
+    
+
+}
+
+.clearfix {
+    clear: both;
+}
+
+.real {
+    margin: 2rem;
+}
+
+.real p {
+    float: left;
+    width: 33.33%;
+    padding-left: 1rem;
+}
+
+.real p:not(:first-child) {
+    padding-left: 1,5rem;
+}
