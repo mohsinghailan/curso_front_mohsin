@@ -80,6 +80,13 @@ body {
     margin: 2rem;
 }
 
+.main-content {}
+
+
+.main-aside {
+    width: 30%;
+}
+
 .main-footer {
     background-color: blueviolet;
     color: aqua;
