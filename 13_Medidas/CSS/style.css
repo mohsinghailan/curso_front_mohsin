@@ -1,5 +1,10 @@
 section {
     font-size: 0.9em;
+    background-color: bisque;
+    /* width: 50%; */
+    min-height: 80vh;
+    overflow: auto;
+    /* height: no te hará caso lo tendrás que hacer con vh */
 }
 
 div {
@@ -12,3 +17,16 @@ p {
     /* font-size: 16px; */
     padding: 2em;
 }
+
+/* . es selector de clase (class) y hover es la seudoclase más importante. Es una clase de interactividad */
+/* yo paso el ratón por encima del párrafo y el efecto se lo aplica al target. El efecto simpre se le aplicará al último */
+.target:hover+.efecto {
+    /* text-indent: 2rem; */
+    color: blue;
+    /* el indent es sangria de primera línea cuando pases el cursor */
+}
+
+/* 
+vh
+vw
+*/
