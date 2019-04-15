@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Serif', serif;
+}
+
+.clase_principal {
+    background-color: blueviolet;
+    color: aqua;
+    padding: 2rem;
+}
+
+.main-header {
+    background-color: blueviolet;
+    color: chartreuse;
+    padding: 2rem;
+    font-family: font-family: 'Bitter', serif;
+}
+
+
+.main-header div {
+    margin: 1rem;
+    position: relative;
+}
+
+
+
+.main-header-p {
+    margin-bottom: 0;
+    margin-top: 0.2rem;
+}
+
+.menu ol, .menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu li {
+    display: inherit;
+    text-decoration: none;
+}
+
+.main-menu {
+    border: 1px solid;
+    border-radius: 5px;
+    width: fit-content;
+    position: absolute;
+    top: 3px;
+    right: 1rem;
+}
+
+
+.main-menu ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.main-menu li {
+    display: inline-block;
+}
+
+
+.main-menu a {
+    /* color: inherit; */
+    /* text-decoration: none; */
+    display: block;
+    padding: 1rem;
+}
+
+
+.clase_principal p {
+    margin-bottom: 0;
+    margin-top: 0,2rem;
+}
+
+.content-wrapper {
+    margin: 2rem;
+}
+
+.main-footer {
+    background-color: blueviolet;
+    color: aqua;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    text-align: center;
+}
+
+
+.social-menu {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.social-menu li {
+    display: inline;
+}
