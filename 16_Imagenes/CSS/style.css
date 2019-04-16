@@ -1,0 +1,70 @@
+img {
+    /* para las imagenes responsive habrá que poner esto, un mínimo y un máximo del 100% de su tamaño. El fit-content es si no llegas al máximo pues no llegas, y si eres mayor que el máximo no te dejaría. Solo llegaría al 100% */
+    width: fit-content;
+    max-width: 100%;
+}
+
+p {
+    text-align: justify;
+}
+
+.image-wrapper-50 {
+    width: 50%;
+/*     float: left;
+    margin-right: 1rem; */
+    float: right;
+    margin-left: 1rem;
+}
+
+.image-wrapper-25 {
+    width: 25%;
+}
+
+.image-wrapper-75 {
+    width: 75%;
+}
+
+.clearfix {
+    border-top: 1px solid cadetblue;
+}
+
+.fondos {
+    height: 100vh;
+    /* por seguridad siempre debemos poner un fondo de color que contraste con el texto antes de la imagen por si esta desaperece */
+    background-color: #0051D1;
+    background-image: url("../assets/maldivas.jpg");
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    /* cubre el espacio pero respetando la proporcionalidad de la imagen */
+    /* background-size: contain; ajusta la imagen sin perder la proporcionalidad*/
+    /* background-size: 100%; */
+    
+    
+}
+
+/* .fondos::after {
+    content: "";
+    display: block;
+    height: 100vh;
+    /* por seguridad siempre debemos poner un fondo de color que contraste con el texto antes de la imagen por si esta desaperece */
+    background-color: #0051D1;
+    background-image: url("../assets/maldivas.jpg");
+    background-repeat: no-repeat;
+    /* background-blend-mode: soft-light; */
+    /* cubre es espacio pero respetando la proporcionalidad de la imagen */
+    /* background-size: contain; ajusta la imagen sin perder la proporcionalidad*/
+    /* background-size: 100%; */
+    background-size: cover; 
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+} */
+
+.fondos h2 {
+    text-align: center;
+    padding-top: 16vh;
+    color: aliceblue;
+    
+    /* color: #EE8A02; */
+    /* line-height: 100vh; */
+}
