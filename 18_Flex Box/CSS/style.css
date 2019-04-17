@@ -1,0 +1,29 @@
+section.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* ajustarse a las lineas */
+    border: 1px double cadetblue;
+    height: 60vh;
+    /* lo realista es que el section contenga párrafos y asi marquen la altura en vez de poner height */
+    /* alineación en el eje principal */
+    justify-content: center;
+    /* Alineación en el eje secundario */
+    align-items: flex-start;
+   
+    /* Alineación entre filas */
+    align-content: flex-end;
+    
+}
+
+p.item {
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    background-color: coral;
+    border: 1px solid;
+}
+
+p.item:nth-child(4) {
+    padding: 2rem 1rem;
+    font-size: 3rem;
+    order: 1;
+}

@@ -7,19 +7,12 @@ body {
     padding: 0;
     font-family: 'Work Sans', sans-serif;
 }
+
 .main-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     background-color: brown;
     color: bisque;
-    padding: 2rem;
+    padding: 1rem 2rem 1rem 2rem;
     font-family: 'Permanent Marker', cursive;
-}
-
-.main-header div {
-    /* margin: 1rem; */
-   /*  position: relative; */
 }
 
 .main-header h1 {
@@ -31,12 +24,7 @@ body {
     margin-bottom: 0;
     margin-top: 0.2rem;
     /* display: none; */
-    visibility: hidden;
-}
-
-.main-header:hover p {
-    /* display: initial; */
-    visibility: initial;
+    /* visibility: hidden; */
 }
 
 .menu ol, .menu ul {
@@ -53,44 +41,43 @@ body {
 .main-menu {
     border: 1px solid;
     border-radius: 5px;
-    /* width: fit-content; */
-    /* position: absolute;
+    width: fit-content;
+    margin-top: 0.5rem;
+   /*  width: fit-content;
+    position: absolute;
     top: 2px;
     right: 1rem; */
 }
 
-.main-menu li {
-    display: inline-block;
+.main-menu ol {
+    display: flex;
 }
 
 .main-menu a {
     display: block;
-    padding: 1rem;
+    padding: 0.7rem 1rem;
 }
 
-/* layout con display flex */
+/* layout con display Flex */
 
-.content-wrapper {
+/* .content-wrapper {
     margin: 2rem;
-    display: table;
+    display: flex;
 
-}
+} */
 
 
 .main-content {
-    /* display: table-cell; */
-    width: 70%;
-    /* atajo para felx-grow, flex-shrink */
-    /* flex: 0 1 10%; */
+    /* width: 70%; */
     background-color: bisque;
     padding-left: 1rem;
     padding-right: 1rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.3rem;
 }
 
 .main-aside {
-    /* display: table-cell; */
-    width: 30%;
-    /* flex: 0 3 10%; */
+    /* width: 30%; */
     padding-left: 1rem;
     padding-right: 1rem;
     background-color: gainsboro;
@@ -118,8 +105,8 @@ td, th {
 .main-footer {
     background-color: brown;
     color: bisque;
-    padding-top: 1.2rem;
-    padding-bottom: 1.5rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.5rem;
     text-align: center;
 }
 
