@@ -28,7 +28,7 @@ p {
     border-top: 1px solid cadetblue;
 }
 
-.fondos {
+/* .fondos {
     height: 100vh;
     /* por seguridad siempre debemos poner un fondo de color que contraste con el texto antes de la imagen por si esta desaperece */
     background-color: #0051D1;
@@ -38,14 +38,21 @@ p {
     /* cubre el espacio pero respetando la proporcionalidad de la imagen */
     /* background-size: contain; ajusta la imagen sin perder la proporcionalidad*/
     /* background-size: 100%; */
-    
-    
+       
+}  */
+
+.fondos {
+    height: 100vh;
+    position: relative;
 }
 
-/* .fondos::after {
+.fondos::before {
     content: "";
     display: block;
-    height: 100vh;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
     /* por seguridad siempre debemos poner un fondo de color que contraste con el texto antes de la imagen por si esta desaperece */
     background-color: #0051D1;
     background-image: url("../assets/maldivas.jpg");
@@ -55,15 +62,14 @@ p {
     /* background-size: contain; ajusta la imagen sin perder la proporcionalidad*/
     /* background-size: 100%; */
     background-size: cover; 
-    opacity: 0.5;
-    position: absolute;
-    top: 0;
-} */
+    opacity: 0.4;
+    /* hecho en clase el miércoles */
+}
 
 .fondos h2 {
     text-align: center;
     padding-top: 16vh;
-    color: aliceblue;
+    color: #EE8A02;
     
     /* color: #EE8A02; */
     /* line-height: 100vh; */
