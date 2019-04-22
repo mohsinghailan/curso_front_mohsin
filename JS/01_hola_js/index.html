@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Curso front - JS</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script>
+        console.log('Hola desde el script')
+        /* Función manejadora de eventos (Event Hundler) */
+        function saludar () {
+            
+            console.log('Hola desde una función')
+        }
+    </script>
+    <script src="./JS/app.js"></script>
+
+</head>
+<body>
+    <header><h1>Hola mundo con JS</h1></header>
+
+    <section>
+        <div class="item-flex">
+            <h2>Ejemplo de JS in-line</h2>
+            <button type="button" title="Aparecerá la respuesta en la consola" onclick="console.log('Hola')">Saludar</button>  
+            <button type="button" onclick="saludar()">Saludar2</button>
+            <button type="button" onclick="despedirse()">Despedirse</button>
+        </div>
+        
+    </section>
+
+    <footer><address>Mohsin Ghaillane - CIFE</address></footer>
+
+</body>
+</html>
