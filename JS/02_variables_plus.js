@@ -7,6 +7,18 @@ let edad = 34 //Declarar e inicializar
 
 // Tipos de datos
 
+/* 
+En otros lenguajes hay declaración EXPLICITA y OBLIGATORIA de tipos
+int x variable x de tipo entero sin valor
+
+En JS los tipos son 
+- debiles: no se declaran explícitamente: sin IMPLICITOS al valor.
+- dinámicos: pueden cambiar.
+
+*/
+
+
+
 // underfined
 let data
 console.log(data)
@@ -29,7 +41,7 @@ data = false
 console.log(data)
 console.log(typeof data)
 
-// underfined
+// underfined: nada
 
 // object
 data = {name:'Pepe', age: 34}
